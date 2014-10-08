@@ -1,0 +1,55 @@
+/**
+ * Created by JetBrains WebStorm.
+ * User: linfusheng
+ * Date: 13-07-09 ����10:00
+ * Mail: linfusheng@ppstream.com
+ */
+#hd,.logo,.h-nav li,.icon-man,.h-person{background-image:url(../../image/oa_ico.png);background-repeat:no-repeat;}
+#hd{background-repeat:repeat-x;}
+body{font:12px/24px "Microsoft YaHei","微软雅黑",Tahoma,arial}
+#hd{background-position:0 -38px;width:100%;min-width:1200px;height:52px;position:fixed;_position:absolute;left:0; top:0;z-index:999}
+	.oa-header{height:45px;padding-top:1px}
+	.oa-header .logo{background-position:0 -90px;width:100px;height:45px;float:left;text-indent:-999em;overflow:hidden}
+	
+	/*==h-nav==*/
+	.h-nav{float:left;margin-left:10px}
+		.h-nav ul{zoom:1;display:inline;overflow:hidden}
+		.h-nav li{background-position:-127px -90px;float:left;}
+		.h-nav li a{position:relative;float:left;color:#FFF;height:16px;line-height:16px;padding:14px 14px 15px 18px;overflow:hidden; z-index:2}
+		.h-nav li a,.h-nav li a:hover{color:#FFF;text-decoration:none}
+
+	/*==h-person==*/
+	.h-person{background-position:-127px -90px;float:right;position:relative}
+	.h-person-info{zoom:1;_display:inline;overflow:hidden;padding-left:18px;cursor:pointer}
+	
+	.h-person-info dt,.h-person-info dd{float:right;line-height:45px;height:45px}
+			.h-person-info dt .icon{margin-top:14px}
+			.h-person-info .icon-man{background-position:-100px -90px}
+			/*==hover��ʽ==*/
+			.h-person-info-hover{}
+			.h-person-info-hover .icon-man{}
+
+	.h-person-info dd{margin-left:5px}
+			.h-person-info dd a{padding-right:20px;position:relative}
+			.h-person-info dd a,.h-person-info dd a:hover{text-decoration:none;color:#FFF}
+			.h-person-info dd .icon-11{width:8px;height:4px;position:absolute;right:5px;top:6px}
+	
+
+
+/*==�����˵�/����==*/
+.h-nav-list{background:url(../../image/nav-list-bg.png) repeat 0 0;color:#fff;text-align:left;position:absolute;z-index:1000;border:1px solid #000;border-top:0;overflow:hidden;display:none;}
+		.h-nav-list dl{visibility:hidden;}
+		.h-nav-list dt,.h-nav-list dd{overflow:hidden;line-height:35px;padding-left:16px;border-top:1px solid #656568;}
+		.h-nav-list dt{background:#414142;}
+		.h-nav-list dd a{color:#fff;}
+
+
+/*==�����˵�/�û�==*/
+.h-person-list{position:absolute;z-index:1;right:0;top:46px;zoom:1;padding-bottom:5px;background:url(../../image/nav-list-bg.png) repeat 0 0;border:1px solid #000;padding-right:55px;display:none}
+			.h-person-list li {padding:0 10px;height:24px; white-space:nowrap}
+			.h-person-list li a{color:#dfdfdf}
+			.h-person-list li a:hover{ color:#006699;text-decoration:none}
+			.h-person-list li.exit{position:absolute;right:0;top:0}
+			.h-person-list li.exit a{position:relative;padding-left:18px;float:left;color:#F00}
+			.h-person-list li.exit a .icon{position:absolute;left:0;top:4px;}
+			.ck-list{position:relative;}

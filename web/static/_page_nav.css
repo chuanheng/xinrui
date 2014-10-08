@@ -1,0 +1,6 @@
+/*page-numb*/
+.page-numb{float:right;margin:6px 10px 0 0;}
+.page-numb li{background:#fff;float:left;display:inline;margin-left:8px;padding:1px;border:1px solid #dbdbdb;}
+.page-numb li a{background:#ebeaea;display:block;height:17px;width:25px;overflow:hidden;text-align:center;line-height:17px;color:#383838;}
+.page-numb li .select{background:#518900;color:#fff;}
+body{font:12px/24px "Microsoft YaHei","微软雅黑",Tahoma,arial}
